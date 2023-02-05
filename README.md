@@ -1,9 +1,9 @@
 # progetto_04_reactjs
 
-Clone di LinkedIn 
+LinkedIn Clone
 Implementerai il frontend in stile LinkedIn.
 
-### `Screenshot #1`
+### `Profile Page`
 ![001](https://user-images.githubusercontent.com/98649610/216772433-a34779a6-94c7-4b45-9cf6-780ca9952a08.JPG)
 ### `Screenshot #2`
 ![002](https://user-images.githubusercontent.com/98649610/216772436-86c5e064-f5b6-49d7-aedc-387829f6f717.JPG)
