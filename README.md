@@ -1,44 +1,36 @@
-# progetto_04_reactjs
-
+### Description 
 LinkedIn Clone
 
 Implementation of the LinkedIn-style Front-End.
 
-### `Profile Page`
+### Screen `Profile Page`
 ![001](https://user-images.githubusercontent.com/98649610/216772433-a34779a6-94c7-4b45-9cf6-780ca9952a08.JPG)
 
-### `Screenshot #2`
+### Screen `Screenshot #2`
 ![002](https://user-images.githubusercontent.com/98649610/216772436-86c5e064-f5b6-49d7-aedc-387829f6f717.JPG)
 
-### `Screenshot #3`
+### Screen `Screenshot #3`
 ![003](https://user-images.githubusercontent.com/98649610/216772439-9d83f7c1-c26b-4f53-851b-8dfd6a082144.JPG)
 
-LinkedIn clone
-
-Q1:
-You will implement the LinkedIn style frontend.
+### LinkedIn clone
+Q1: You will implement the LinkedIn style frontend.
 
 My profile page:
 Recreate it as faithfully as possible to the original.
-
-     https://www.linkedin.com/in/me/
+https://www.linkedin.com/in/me/
 
 Create your profile HERE: https://strive.school/linkedin-registration
 Receive the API authentication token.
 
-
 API Docs: (provide authentication with your Bearer Token)
 
-PROFILES:
+### PROFILES:
 GET https://striveschool-api.herokuapp.com/api/profile/
-Returns the list of user profiles
-
+     Returns the list of user profiles
 GET https://striveschool-api.herokuapp.com/api/profile/me
      Return your profile
-
 GET https://striveschool-api.herokuapp.com/api/profile/{userId}
      Returns a specific profile
-
 PUT https://striveschool-api.herokuapp.com/api/profile/
      Update your user profile
 
@@ -66,19 +58,12 @@ PUT https://striveschool-api.herokuapp.com/api/profile/
 saves the information in the Redux Store so that each component
 can access the information later (e.g. the Navbar component)
 
-
-
-
-
-
-LinkedIn clone – D2
+### LinkedIn clone – D2
 
 You will implement the LinkedIn style frontend.
-
-Today we will focus on the experiences section of the profile you started yesterday.
+Experiences section of the profile you started yesterday.
 
 Recreate it as faithfully as possible to the original.
-
 https://www.linkedin.com/in/me/
 
 Create your profile HERE ➡️ https://strive.school/linkedin-registration ⬅️
@@ -87,17 +72,13 @@ And receive the auth token to the API.
 
 📃 API Docs: (provide authentication with your Bearer Token)
 
-EXPERIENCES:
-
+### EXPERIENCES:
 - GET https://striveschool-api.herokuapp.com/api/profile/:userId/experiences
 Returns a list of experiences
-
 - POST https://striveschool-api.herokuapp.com/api/profile/:userId/experiences
 Create a new experience. NOTE: Each user is only allowed to edit their own experiences
-
 - GET https://striveschool-api.herokuapp.com/api/profile/:userId/experiences/:expId
 Return a specific experience
-
 - PUT https://striveschool-api.herokuapp.com/api/profile/:userId/experiences/:expId
 Modify a specific experience
 
@@ -105,48 +86,33 @@ Modify a specific experience
 Deletes a specific experience
 
 
+### LinkedIn clone – D3
+You will implement the LinkedIn style frontend.
+Today we will focus on the news page (news)
+If there is something unfinished, finish it before starting a new feature.
+
+Recreate it as faithfully as possible to the original.
+https://www.linkedin.com/in/me/
+
+Create your profile HERE ➡️ https://strive.school/linkedin-registration ⬅️
+And receive the auth token to the API.
+
+📃 API Docs: (provide authentication with your Bearer Token)
+
+POSTS:
+- GET https://striveschool-api.herokuapp.com/api/posts/
+  Returns a list of existing posts
+- POST https://striveschool-api.herokuapp.com/api/posts/
+  Create a new post. NOTE: Each user is allowed to edit only his own posts
+- GET https://striveschool-api.herokuapp.com/api/posts/{postId}
+  Returns a specific post
+- PUT https://striveschool-api.herokuapp.com/api/posts/{postId}
+  Edit a specific post
+- DELETE https://striveschool-api.herokuapp.com/api/posts/{postId}
+  Delete a specific post
 
 
-
-
-Build Week D3
-
-     LinkedIn clone – D3
-
-     You will implement the LinkedIn style frontend.
-
-     Today we will focus on the news page (news)
-
-     If there is something unfinished, finish it before starting a new feature.
-
-     Recreate it as faithfully as possible to the original.
-
-     https://www.linkedin.com/in/me/
-
-     Create your profile HERE ➡️ https://strive.school/linkedin-registration ⬅️
-
-     And receive the auth token to the API.
-
-     📃 API Docs: (provide authentication with your Bearer Token)
-
-     POSTS:
-
-     - GET https://striveschool-api.herokuapp.com/api/posts/
-     Returns a list of existing posts
-
-     - POST https://striveschool-api.herokuapp.com/api/posts/
-     Create a new post. NOTE: Each user is allowed to edit only his own posts
-
-     - GET https://striveschool-api.herokuapp.com/api/posts/{postId}
-     Returns a specific post
-
-     - PUT https://striveschool-api.herokuapp.com/api/posts/{postId}
-     Edit a specific post
-
-     - DELETE https://striveschool-api.herokuapp.com/api/posts/{postId}
-     Delete a specific post
-
-     POST model:
+POST model:
      {
          "_id": "5d93ac84b86e220017e76ae1", // server generated
          "text": "this is a post text", // the only property you need to send
@@ -157,51 +123,24 @@ Build Week D3
      }
 
 
+### LinkedIn clone – D4
 
+You will implement the LinkedIn style frontend.
+Today we will focus on uploading images
+Each user will need to be able to include images for their profile/experiences/posts
 
+To upload images you will need to use an input of type file and a FormData object. 
+Part of the challenge is researching and figuring out how to use it.
+ 
+If there is something unfinished, finish it before starting a new feature.
 
-     LinkedIn clone – D4
-
-     You will implement the LinkedIn style frontend.
-
-     Today we will focus on uploading images
-
-     Each user will need to be able to include images for their profile/experiences/posts
-
-     To upload images you will need to use an input of type file and a FormData object. Part of the challenge is researching and figuring out how to use it.
-
-     
-
-     If there is something unfinished, finish it before starting a new feature.
-
-     Recreate it as faithfully as possible to the original.
-
-     https://www.linkedin.com/in/me/
+Recreate it as faithfully as possible to the original.
+ https://www.linkedin.com/in/me/
 
 Create your profile HERE:
 https://strive.school/linkedin-registration
 
 And receive the auth token to the API.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
